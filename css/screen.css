@@ -58,57 +58,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
-
-h1 {
-  margin-bottom: 1em;
-}
-
-p {
-  margin: 1em 0;
-}
-
-a {
-  color: #00a;
-}
-
-a:hover {
-  color: #000;
-}
-
-a:visited {
-  color: #a0a;
-}
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -124,11 +73,6 @@ a:visited {
   font-size: 80%;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
 .site {
   font-size: 115%;
   text-align: justify;
@@ -195,11 +139,6 @@ a:visited {
   border: 0;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
 /* standard */
 .post pre {
   border: 1px solid #ddd;
