@@ -71,7 +71,7 @@ section {
 .home-header {
   min-height: 320px;
   background: url("/images/evdb.png") no-repeat center 20px;
-  background-color: #eeeeee;
+  background-color: #e6f2ff;
   padding-top: 340px;
   padding-bottom: 20px;
 }
@@ -94,7 +94,7 @@ section {
     background-position: 20px 20px;
     padding-left: 340px;
     padding-top: 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #cce5ff;
     border-radius: 20px;
   }
   .home-header h1, .home-header p {
@@ -103,8 +103,8 @@ section {
 }
 
 footer {
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
+  background-color: #e6f2ff;
+  border: 1px solid #cce5ff;
   border-width: 1px 0;
   padding: 1em;
   text-align: center;
