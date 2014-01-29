@@ -60,6 +60,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
 }
 
 section {
@@ -84,9 +85,8 @@ section {
   font-size: 200%;
 }
 .home-header p {
-  font-size: 120%;
-  line-height: 1.2em;
   margin-top: 1em;
+  font-size: 120%;
 }
 @media screen and (min-width: 720px) {
   .home-header {
@@ -106,17 +106,8 @@ footer {
   background-color: #e6f2ff;
   border: 1px solid #cce5ff;
   border-width: 1px 0;
-  padding: 1em;
-  text-align: center;
-  font-size: 80%;
   color: #666;
   margin-top: 2em;
-}
-footer ul li {
-  display: inline;
-}
-footer ul li + li {
-  margin-left: 1em;
 }
 footer .rss {
   margin-top: 1.1em;
@@ -125,4 +116,33 @@ footer .rss {
 }
 footer .rss img {
   border: 0;
+}
+footer:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.footer-section {
+  margin: 1em 0;
+  text-align: center;
+}
+.footer-section li {
+  margin-left: 0.5em;
+  display: inline;
+}
+@media screen and (min-width: 720px) {
+  .footer-section {
+    font-size: 80%;
+    margin: 0.2em 0;
+  }
+  .footer-section h3, .footer-section ul {
+    display: inline;
+  }
+  .footer-section h3 {
+    font-weight: bold;
+  }
 }
