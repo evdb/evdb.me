@@ -1,0 +1,9 @@
+# Don't try to change these settings as github will override them:
+safe: true
+lsi: false
+pygments: true
+source: .
+
+# Change options after this line
+name: EvdB.me
+markdown: redcarpet
